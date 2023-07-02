@@ -145,7 +145,7 @@ router
       const catalogueCollection = db._collection("catalog");
       const catalogueData = catalogueCollection.all();
 
-      res.send({ catalogue: catalogueData });
+      res.send({ catalogueCollection });
     } catch (error) {
       res.throw(500, "Error retrieving catalogue data");
     }
