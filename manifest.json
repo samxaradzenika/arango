@@ -1,0 +1,19 @@
+{
+  "engines": {
+    "arangodb": "^3.0.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "setup": "scripts/setup.js"
+  },
+  "configuration": {
+    "SMTP_BASE_URL": {
+      "type": "string",
+      "description": "https://www.fast2sms.com/dev/bulkV2"
+    },
+    "API_KEY_SMTP": {
+      "type": "string",
+      "description": "kRBhQjovD6HWtNes0XSVIUzp1ZMw2GgY9Orixayd4m8lcAPKubUrv1OEk6h4fwGXWlI5t2RHSKoCzQyu"
+    }
+  }
+}
